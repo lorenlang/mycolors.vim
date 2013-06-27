@@ -19,7 +19,6 @@ if version > 580
     endif
 endif
 let g:colors_name="molokai"
-let g:molokai_original=1
 
 if exists("g:molokai_original")
     let s:molokai_original = g:molokai_original
@@ -206,7 +205,7 @@ if &t_Co > 255
    hi Normal          ctermfg=252 ctermbg=233
    hi Comment         ctermfg=59
    hi CursorLine                  ctermbg=236   cterm=none
-   hi CursorColumn                ctermbg=234
+   hi CursorColumn                ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=234
-   hi NonText         ctermfg=250 ctermbg=234
+   hi NonText         ctermbg=none
 end
